@@ -70,18 +70,13 @@ Este proyecto tiene su propio Git en la carpeta `simulacion_impresora` (commit i
 ```powershell
 cd "c:\Users\CHEUS\OneDrive\Desktop\editor de texto\simulacion_impresora"
 
-git remote add origin https://github.com/TU_USUARIO/simulacion_impresora.git
+git remote add origin https://github.com/decheverriae-prog/simulacion-impresora.git
 git push -u origin main
 ```
 
-Sustituye `TU_USUARIO` y el nombre del repo por los tuyos. Si GitHub pide iniciar sesión, usa tu usuario y un **Personal Access Token** como contraseña (o SSH si ya tienes clave configurada).
+Repositorio público: **[github.com/decheverriae-prog/simulacion-impresora](https://github.com/decheverriae-prog/simulacion-impresora)**.
 
-Con SSH:
-
-```powershell
-git remote add origin git@github.com:TU_USUARIO/simulacion_impresora.git
-git push -u origin main
-```
+Si cambias la URL del remoto: `git remote set-url origin <nueva-url>`. Con SSH sustituye la URL por `git@github.com:decheverriae-prog/simulacion-impresora.git`.
 
 ## Licencia educativa
 
