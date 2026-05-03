@@ -60,6 +60,29 @@ Los trabajos con datos inválidos (ID vacío, páginas ≤ 0, llegada negativa) 
 
 3. **Enlace al repositorio público GitHub** con este código, este README y la carpeta `tests/`.
 
+## Publicar en GitHub (subir el repositorio)
+
+Este proyecto tiene su propio Git en la carpeta `simulacion_impresora` (commit inicial en la rama `main`).
+
+1. En GitHub crea un repositorio **nuevo y vacío** (sin README), por ejemplo `simulacion_impresora`, **público**.
+2. En PowerShell:
+
+```powershell
+cd "c:\Users\CHEUS\OneDrive\Desktop\editor de texto\simulacion_impresora"
+
+git remote add origin https://github.com/TU_USUARIO/simulacion_impresora.git
+git push -u origin main
+```
+
+Sustituye `TU_USUARIO` y el nombre del repo por los tuyos. Si GitHub pide iniciar sesión, usa tu usuario y un **Personal Access Token** como contraseña (o SSH si ya tienes clave configurada).
+
+Con SSH:
+
+```powershell
+git remote add origin git@github.com:TU_USUARIO/simulacion_impresora.git
+git push -u origin main
+```
+
 ## Licencia educativa
 
 Uso libre para fines académicos.
